@@ -1,0 +1,35 @@
+/node_modules
+/temp
+/dist
+.sass-cache
+/bower_components
+/.tmp
+
+# Selenium
+/test/e2e/*.jar
+chromedriver.log
+
+# Casper
+/test/casper/*.png
+
+# Vim
+*.swp
+*.swo
+
+# OS X
+.DS_Store
+
+# Emacs
+*#
+
+libpeerconnection.log
+.tidy
+/test/**/*.js
+/test/*/*/*.js
+
+# Leiningen
+/target
+.nrepl-port
+.lein*
+/repl
+/out
